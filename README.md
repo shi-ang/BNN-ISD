@@ -53,6 +53,6 @@ If you are interested in using the `NACD` dataset you can access the NACD data
 from the [Patient Specific Survival Prediction (PSSP) website](http://pssp.srv.ualberta.ca/) under "Public Predictors" or use this [direct download link](http://pssp.srv.ualberta.ca/system/predictors/datasets/000/000/032/original/All_Data_updated_may2011_CLEANED.csv?1350302245). 
 And then rename the file to `NACD_Full.csv` and put it in the `data/NACD/` folder.
 
-If you are interested in using the `MIMIC` dataset, you can access the MIMIC data from the [MIMIC website](https://mimic.physionet.org/) under "Accessing MIMIC-III v2.0", or directly access this [MIMIC-IV Version 2.0](https://physionet.org/content/mimiciv/2.0/).
+If you are interested in using the `MIMIC` dataset, you can access the MIMIC data from the [MIMIC website](https://mimic.physionet.org/) under "Accessing MIMIC-IV v2.0", or directly access this [MIMIC-IV Version 2.0](https://physionet.org/content/mimiciv/2.0/).
 You first need to go through the ethic process, and once you have done that, you can go to the BigQuery and process the data using the json script `MIMIC_IV_V2.0.json` in the `data/MIMIC/` folder.
 And further process the data using the code in `MIMIC_IV_V2.0_preprocess.py`.
